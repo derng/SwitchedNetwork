@@ -44,7 +44,7 @@ public class Main {
             // to Port 1 on the Network Switch.
             SwitchPort port1 = networkSwitch.getPort(1);
             port1.connectNetworkCard((NetworkCard) computerB);
-            computerA.connectPort(port1);
+            computerB.connectPort(port1);
 
             // Start the switch operating.
             // Essentially the switch starts forwarding network packets.
